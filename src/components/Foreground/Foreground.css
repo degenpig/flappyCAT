@@ -1,0 +1,9 @@
+.Foreground {
+  width: 1400px;
+  height: 100px;
+
+  position: absolute;
+  bottom: 0;
+
+  background: url(../../assets/fg.png);
+}

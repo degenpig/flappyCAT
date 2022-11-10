@@ -1,0 +1,13 @@
+.Bird {
+  width: 35px;
+  height: 34px;
+
+  top: 250px;
+  left: 120px;
+  position: absolute;
+
+  background: url(../../assets/play1.png);
+
+  border-radius: 10px;
+  /* background-color: brown; */
+}

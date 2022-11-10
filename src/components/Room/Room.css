@@ -1,0 +1,104 @@
+.selectNFT{
+    width: 35px;
+    height: 34px;
+    background: url(../../assets/chooseNFT.png);
+    /* background-color: black; */
+
+    border: 2px solid red;
+    border-radius: 30px;
+    /* padding: 20px; */
+}
+.modal{
+    width: 500px;
+    height: 400px;
+    top: 90px;
+    left: 222px;
+    background-color: aqua;
+    border: 2px solid blue;
+}
+.close{
+    cursor: pointer;
+}
+.Cat1{
+    cursor: pointer;
+
+    width: 100px;
+    height: 100px;
+    background: url(../../assets/nft1.png);
+}
+.Cat2{
+    cursor: pointer;
+
+    width: 100px;
+    height: 100px;
+    background: url(../../assets/nft2.png);
+}
+.Cat3{
+    cursor: pointer;
+
+    width: 100px;
+    height: 100px;
+    background: url(../../assets/nft3.png);
+}
+.moving{
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+}
+
+#bluefish {
+width: 35px;
+height: 35px;
+position: absolute;
+background: url(../../assets/move1.png);
+}
+
+#turtle {
+width: 35px;
+height: 35px;
+position: absolute;
+margin-left: 40px;
+background: url(../../assets/move2.png);
+}
+
+#bluefishwin {
+width: 35;
+height: 35px;
+position: absolute;
+margin-left: 150px;
+display: none;
+background: url(../../assets/move3.png);
+}
+
+#turtlewin {
+width: 35px;
+height: 35px;
+position: absolute;
+margin-left: 150px;
+display: none;
+background: url(../../assets/move4.png);
+}
+
+.finishline {
+position: absolute;
+right: -12pc;
+top: 18pc;
+/* background: url(https://t1.rbxcdn.com/877010da8ce131dfcb3fa6a9b07fea89); */
+}
+
+#traffic-light {
+height: 10pc;
+width: 4pc;
+background-color: #333;
+border-radius: 20pc;
+position: absolute;
+}
+
+.bulb {
+height: 2pc;
+width: 2pc;
+background-color: #111;
+border-radius: 50%;
+margin: 15px auto;
+transition: background 500ms;
+}
